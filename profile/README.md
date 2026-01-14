@@ -29,6 +29,16 @@ Stačí udělat pull request a merge v App repu: main -> production. GitHub akce
 ```sh
 git clone https://github.com/TdA26-Nejkulatoulinkovatejsi-micovina/App.git --recurse-submodules
 ```
+2. Nainstalujeme node packages pomocí [bun](https://bun.sh)u:
+```sh
+cd repos/frontend
+bun install
+```
+a poté (opět z root složky):
+```sh
+cd repos/backend
+bun install
+```
 2. V root složce naklonovaného repa (tj root složka App repa) spustíme příkaz:
 ```sh
 docker compose -f dev.compose.yml up --build
