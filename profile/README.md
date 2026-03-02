@@ -4,13 +4,13 @@ Název týmu: nejkulaťoulinkovatější míčovina
 
 ## Členové a jejich role
 - [Martin Petr](https://github.com/MartinGamesCZ) - Vývoj, testování
-- [Lukáš Rais](https://github.com/MejPok) - Testování, v dalších fázích vývoj a komunikace s klientem
-- [Filip Zima](https://github.com/ZimaJeKing) - Testování, v dalších fázích vývoj a komunikace s klientem
+- [Lukáš Rais](https://github.com/MejPok) - Komunikace s klientem, analýza požadavků, testování
+- [Filip Zima](https://github.com/ZimaJeKing) - Testování, v dalších fázích pomoc s vývojem
 
 ## Použité technologie
 - Frontend: NextJS (React, TypeScript), Tailwind
 - Backend: NestJS (TypeScript), TypeORM
-- Ostatní: Bun runtime, TimescaleDB (pg 17 based), Traefik pro reverse proxy
+- Ostatní: Bun runtime, TimescaleDB (pg 17 based), Caddy pro reverse proxy
 
 ## Struktura repozitářů
 Pro jednodušší a přehlednější práci je aplikace rozdělena na několik menších repozitářů, kde App je hlavní repozitář obsahující další. Po push do main branch nějakého repozitáře se automaticky aktualizuje reference na něj v App repu. 
